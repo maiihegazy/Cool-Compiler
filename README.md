@@ -15,7 +15,7 @@ COOL manual : https://theory.stanford.edu/~aiken/software/cool/cool-manual.pdf
 
 ## Assignments
 
-### A1: Lexer Analyser
+### A1: Lexer 
 Lexical analysis is the first phase of a compiler. The lexical analyzer breaks the source code into a series of tokens, and passes the data to the parser when it demands.
 
 ### A2: Parser
