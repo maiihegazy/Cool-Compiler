@@ -1,4 +1,4 @@
-#Lexer Analyser For COOL:
+# Lexer Analyser For COOL:
 
 This is an assignment for Compiler Class, Shoubra Faculty of Engineering, Benha University.
 
