@@ -1,0 +1,27 @@
+#1
+_program
+  #1
+  _class
+    Main
+    Object
+    "good.cl"
+    (
+    #2
+    _method
+      main
+      Object
+      #3
+      _dispatch
+        #3
+        _new
+          IO
+        : _no_type
+        out_string
+        (
+        #3
+        _string
+          ""HelloWorld""
+        : _no_type
+        )
+      : _no_type
+    )
