@@ -1,0 +1,88 @@
+#1 CLASS
+#1 TYPEID Main
+#1 '{'
+#2 OBJECTID main
+#2 '('
+#2 ')'
+#2 ':'
+#2 TYPEID Object
+#2 '{'
+#3 '('
+#3 NEW
+#3 TYPEID IO
+#3 ')'
+#3 '.'
+#3 OBJECTID out_string
+#3 '('
+#3 STR_CONST ""HelloWorld""
+#3 ')'
+#4 '}'
+#4 ';'
+#5 '}'
+#5 ';'
+#1 CLASS
+#1 TYPEID Main
+#1 '{'
+#2 OBJECTID main
+#2 '('
+#2 ')'
+#2 ':'
+#2 TYPEID Object
+#2 '{'
+#3 '('
+#3 NEW
+#3 TYPEID IO
+#3 ')'
+#3 '.'
+#3 OBJECTID out_string
+#3 '('
+#3 STR_CONST ""HelloWorld""
+#3 ')'
+#4 '}'
+#4 ';'
+#5 '}'
+#5 ';'
+#1 CLASS
+#1 TYPEID Main
+#1 '{'
+#2 OBJECTID main
+#2 '('
+#2 ')'
+#2 ':'
+#2 TYPEID Object
+#2 '{'
+#3 '('
+#3 NEW
+#3 TYPEID IO
+#3 ')'
+#3 '.'
+#3 OBJECTID out_string
+#3 '('
+#3 STR_CONST ""HelloWorld""
+#3 ')'
+#4 '}'
+#4 ';'
+#5 '}'
+#5 ';'
+#1 CLASS
+#1 TYPEID Main
+#1 '{'
+#2 OBJECTID main
+#2 '('
+#2 ')'
+#2 ':'
+#2 TYPEID Object
+#2 '{'
+#3 '('
+#3 NEW
+#3 TYPEID IO
+#3 ')'
+#3 '.'
+#3 OBJECTID out_string
+#3 '('
+#3 STR_CONST ""HelloWorld""
+#3 ')'
+#4 '}'
+#4 ';'
+#5 '}'
+#5 ';'
