@@ -1,3 +1,8 @@
+#Lexer Analyser For COOL:
+
+This is an assignment for Compiler Class, Shoubra Faculty of Engineering, Benha University.
+
+
 ## Working Programs
 
   - `good.cl` : The program is succesfully parsed.
