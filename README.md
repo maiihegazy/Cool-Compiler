@@ -21,6 +21,10 @@ Lexical analysis is the first phase of a compiler. The lexical analyzer breaks t
 ### A2: Parser
 Parsing (or syntax analysis) is the second phase of a compiler. A parser takes the input from a lexical analyzer in the form of token streams and analyzes the source code (token stream) against the production rules to detect any errors in the code. The output of this phase is an abstract syntax tree (AST).
 
+### A3: Three Address Code 
+Three address code is an intermediate code used by optimizing compilers to aid in the implementation of code-improving transformations. Each TAC instruction has at most three operands and is typically a combination of assignment and a binary operator. For example, t1 := t2 + t3. The name derives from the use of three operands in these statements even though instructions with fewer operands may occur.
+
+
 
 
 
