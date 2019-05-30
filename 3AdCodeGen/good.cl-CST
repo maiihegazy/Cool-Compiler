@@ -1,0 +1,31 @@
+s = "Hello"
+g:
+BeginFun 
+PushParams y
+PushParams s
+Call concat
+PopParams 4
+EndFun 
+f:
+BeginFun 
+PushParams x
+t1 = x * 2
+EndFun 
+a = unintialized
+b = unintialized
+f:
+BeginFun 
+PushParams x
+t2 = x + a
+EndFun 
+f:
+BeginFun 
+PushParams x
+t3 = x + a
+EndFun 
+main:
+BeginFun 
+PushParams 9
+Call f
+PopParams 4
+EndFun 

@@ -1,0 +1,143 @@
+#1
+_program
+  #1
+  _class
+    B
+    Object
+    "null"
+    (
+    #2
+    _attr
+      s
+      String
+      #2
+      _string
+        ""Hello""
+      : _no_type
+    #3
+    _method
+      g
+      #3
+      _formal
+        y
+        String
+      Int
+      #4
+      _dispatch
+        #4
+        _object
+          y
+        : _no_type
+        concat
+        (
+        #4
+        _object
+          s
+        : _no_type
+        )
+      : _no_type
+    #6
+    _method
+      f
+      #6
+      _formal
+        x
+        Int
+      Int
+      #7
+      _mul
+        #7
+        _object
+          x
+        : _no_type
+        #7
+        _int
+          2
+        : _no_type
+      : _no_type
+    )
+  #11
+  _class
+    A
+    Object
+    "null"
+    (
+    #12
+    _attr
+      a
+      Int
+      #12
+      _no_expr
+      : _no_type
+    #13
+    _attr
+      b
+      B
+      #13
+      _new
+        B
+      : _no_type
+    #14
+    _method
+      f
+      #14
+      _formal
+        x
+        Int
+      Int
+      #15
+      _plus
+        #15
+        _object
+          x
+        : _no_type
+        #15
+        _object
+          a
+        : _no_type
+      : _no_type
+    )
+  #18
+  _class
+    Main
+    Object
+    "null"
+    (
+    #20
+    _method
+      f
+      #20
+      _formal
+        x
+        Int
+      Int
+      #21
+      _plus
+        #21
+        _object
+          x
+        : _no_type
+        #21
+        _object
+          a
+        : _no_type
+      : _no_type
+    #24
+    _method
+      main
+      Object
+      #26
+      _dispatch
+        #26
+        _object
+          self
+        : _no_type
+        f
+        (
+        #26
+        _int
+          9
+        : _no_type
+        )
+      : _no_type
+    )
