@@ -24,7 +24,16 @@ Parsing (or syntax analysis) is the second phase of a compiler. A parser takes t
 ### A3: Three Address Code 
 Three address code is an intermediate code used by optimizing compilers to aid in the implementation of code-improving transformations. Each TAC instruction has at most three operands and is typically a combination of assignment and a binary operator. For example, t1 := t2 + t3. The name derives from the use of three operands in these statements even though instructions with fewer operands may occur.
 
+## Run Antlr Files 
 
+```
+$ cd /tmp
+$ antlr4 lex.g4
+$ antlr4 parse.g4
+$ javac *.java
+$ javac CodegenTest.java
+$ java CodegenTest file_name.cl
+```
 
 
 
